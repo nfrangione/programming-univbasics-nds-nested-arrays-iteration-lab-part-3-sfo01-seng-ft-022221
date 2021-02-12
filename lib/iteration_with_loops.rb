@@ -6,5 +6,5 @@ def join_nested_strings(src)
   while count < src.count do
     inner_count = 0 
     while inner_count < src[count].count do
-      if src[count][inner_count].to_s == 
+      if src[count][inner_count]
 end
