@@ -9,4 +9,10 @@ def join_nested_strings(src)
       if src[count][inner_count] == src[count][inner_count].to_s
         results_array << src[count][inner_count]
       end
+      inner_count += 1
+    end
+    count += 1 
+  end
+  results_array.join(' ')
+  
 end
